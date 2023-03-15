@@ -12,6 +12,7 @@ body {
 .header {
     // position: relative;
     padding-top: 28px;
+    margin-top: 38px;
     &-nav,
     &-menu {
         display: flex;
@@ -72,12 +73,14 @@ body {
     position: relative;
     font-family: var(--font-public-sans);
     padding-top: 60px;
-    padding-bottom: 125px;
     display: flex;
     column-gap: 76px;
     &-info {
         width: 35.47%;
         flex-shrink: 0;
+        position: relative;
+        z-index: 999;
+        margin-top: 43px;
     }
     &-title {
         font-weight: 800;
@@ -158,6 +161,7 @@ body {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 20px;
+        padding-bottom: 88px;
     }
     &-img {
         position: relative;
@@ -166,7 +170,7 @@ body {
         object-fit: cover;
         border-radius: 110px;
     }
-    &-img:nth-child(2) {
+    &-img:nth-of-type(2) {
         margin-top: 77px;
     }
     &-sticker {
@@ -188,12 +192,7 @@ body {
         height: 340px;
         background: #4dbb9a;
         filter: blur(137px);
-        left: 50%;
-        bottom: 0;
-        transform: translateX(-50%);
-        -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
-}
+        bottom: 169px;
+        right: 175px;
+    }
 }
