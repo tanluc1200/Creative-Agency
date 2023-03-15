@@ -23,3 +23,42 @@
     -ms-border-radius: 999px;
     -o-border-radius: 999px;
 }
+.section-desc {
+    display: inline-block;
+    position: relative;
+    font-weight: 500;
+    font-size: 16rem;
+    line-height: 1.12;
+    color: #152427;
+    padding-left: 46px;
+}
+.section-desc::before {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 1px;
+    left: 0;
+    bottom: 50%;
+    background: #152427;
+}
+.section-title {
+    position: relative;
+    width: 45.6%;
+    font-weight: 600;
+    font-size: 42rem;
+    line-height: 1.24;
+    color: #152427;
+}
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 66px;
+    height: 2px;
+    background: #152427;
+    bottom: 19px;
+    right: 103px;
+}
+.section-row {
+    display: flex;
+    flex-wrap: wrap;
+}
