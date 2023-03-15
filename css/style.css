@@ -1,6 +1,7 @@
 :root {
   --font-poppins: "Poppins", sans-serif;
   --font-public-sans: "Public Sans", sans-serif;
+  --font-sonsie-one: "Sonsie One", cursive;
 }
 
 html {
@@ -201,4 +202,60 @@ body {
   filter: blur(137px);
   bottom: 169px;
   right: 175px;
+}
+
+.partner {
+  margin-bottom: 106px;
+}
+.partner-content {
+  background: #e2eddf;
+  border-radius: 100.5px;
+  width: 100%;
+  min-height: 201px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.partner-block {
+  display: flex;
+}
+.partner-item {
+  display: flex;
+  align-items: center;
+}
+.partner-title {
+  color: #143c3c;
+}
+.partner-title-1 {
+  margin-right: 42px;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 46px;
+}
+.partner-title-2 {
+  margin-right: 55px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+}
+.partner-title-3 {
+  margin-left: 14px;
+  margin-right: 64px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 39px;
+}
+.partner-title-4 {
+  font-family: var(--font-sonsie-one);
+  margin-right: 63px;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+}
+.partner-title-5 {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 0.105em;
 }/*# sourceMappingURL=style.css.map */
