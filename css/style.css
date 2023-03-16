@@ -436,4 +436,72 @@ body {
 
 .process {
   padding-top: 36px;
+  margin-bottom: 148px;
+}
+.process-content {
+  margin-top: 81px;
+}
+.process-img {
+  position: absolute;
+  bottom: 0;
+  right: 92px;
+  z-index: 9999;
+}
+.process-item {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 3fr;
+  align-items: center;
+}
+.process-title {
+  max-width: 486px;
+}
+.process-title::after {
+  right: 0;
+}
+.process-highlight {
+  font-weight: 600;
+  font-size: 72rem;
+  line-height: 0.72;
+  color: #143c3c;
+}
+.process-sub-title {
+  font-weight: 600;
+  font-size: 22rem;
+  line-height: 1;
+  color: #152427;
+}
+.process-desc {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 18rem;
+  line-height: 1;
+  color: #575d5e;
+  margin-top: 22px;
+  text-decoration: underline;
+}
+.process-sub-desc {
+  font-weight: 500;
+  font-size: 18rem;
+  line-height: 1.56;
+  color: #7d8188;
+}
+.process-item {
+  padding-inline: 30px;
+}
+.process-item:first-of-type {
+  background: #e2eddf;
+  border-radius: 33px;
+  min-height: 185px;
+  margin-bottom: 46px;
+  position: relative;
+}
+.process-item:nth-of-type(2) {
+  margin-bottom: 21px;
+}
+.process-item:nth-of-type(4) {
+  margin-block: 54px 28px;
+}
+.process-line {
+  height: 3px;
+  background: linear-gradient(180deg, #83a17d 4.17%, rgba(131, 161, 125, 0) 36.46%);
 }/*# sourceMappingURL=style.css.map */

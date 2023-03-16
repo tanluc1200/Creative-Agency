@@ -31,6 +31,7 @@
     line-height: 1.12;
     color: #152427;
     padding-left: 46px;
+    margin-bottom: 20px;
 }
 .section-desc::before {
     position: absolute;
@@ -64,5 +65,7 @@
 }
 .line {
     width: 100%;
-    border: 1px solid #83a17d;
+    height: 1px;
+    background: #83a17d;
+    /* border: 1px solid #83a17d; */
 }
