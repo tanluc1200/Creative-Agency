@@ -17,8 +17,7 @@
         <link rel="stylesheet" href="./css/style.css" />
     </head>
     <body>
-        <!-- header -->
-        <header class="header">
+        <header class="header-fix">
             <div class="wrapper">
                 <nav class="header-nav">
                     <img class="header-logo" src="./img/logo.svg" alt="" />
@@ -37,7 +36,82 @@
                         </li>
                     </ul>
                     <a href="#!" class="header-btn btn">Sign Up</a>
+                    <span class="header-sub-menu">
+                        <svg
+                            class="header-sub-menu-icon"
+                            width="72px"
+                            height="72px"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                                id="SVGRepo_tracerCarrier"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M4 17H20M4 12H20M4 7H20"
+                                    stroke="#000000"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                ></path>
+                            </g>
+                        </svg>
+                    </span>
                 </nav>
+            </div>
+        </header>
+        <!-- header -->
+        <header class="header">
+            <div class="wrapper">
+                <!-- <nav class="header-nav">
+                    <img class="header-logo" src="./img/logo.svg" alt="" />
+                    <ul class="header-menu">
+                        <li class="header-item">
+                            <a href="#!" class="header-link">Home</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#!" class="header-link">About</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#!" class="header-link">Blog</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#!" class="header-link">Contact</a>
+                        </li>
+                    </ul>
+                    <a href="#!" class="header-btn btn">Sign Up</a>
+                    <span class="header-sub-menu">
+                        <svg
+                            class="header-sub-menu-icon"
+                            width="72px"
+                            height="72px"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                                id="SVGRepo_tracerCarrier"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M4 17H20M4 12H20M4 7H20"
+                                    stroke="#000000"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                ></path>
+                            </g>
+                        </svg>
+                    </span>
+                </nav> -->
                 <section class="hero">
                     <svg
                         class="hero-sticker hero-sticker1"
@@ -141,8 +215,9 @@
                     </svg>
                     <div class="hero-info">
                         <h1 class="hero-title">
-                            We’re a <br />
-                            creative design agency.
+                            We’re a creative design agency.
+                            <!-- We’re a <br />
+                            creative design agency. -->
                         </h1>
                         <p class="hero-desc">
                             A brilliant, modular agency template for startup’s
@@ -325,6 +400,47 @@
             <section class="about">
                 <div class="about-body wrapper">
                     <div class="about-picture">
+                        <div class="about-designer">
+                            <h3 class="about-designer-title">All Desingners</h3>
+                            <span class="about-designer-desc">
+                                Total Balance
+                            </span>
+                            <strong class="about-designer-highlight">
+                                40%
+                            </strong>
+                            <span class="about-designer-percent"></span>
+                            <span class="about-designer-sub-title">
+                                Loading...
+                            </span>
+                            <span class="about-designer-radio"></span>
+                            <div class="about-designer-row">
+                                <span class="about-designer-team">
+                                    Teams:
+                                </span>
+                                <div class="about-designer-avatar">
+                                    <img
+                                        src="./img/32.jpg"
+                                        alt=""
+                                        class="about-designer-img"
+                                    />
+                                    <img
+                                        src="./img/46.jpg"
+                                        alt=""
+                                        class="about-designer-img"
+                                    />
+                                    <img
+                                        src="./img/84.jpg"
+                                        alt=""
+                                        class="about-designer-img"
+                                    />
+                                    <img
+                                        src="./img/97.jpg"
+                                        alt=""
+                                        class="about-designer-img"
+                                    />
+                                </div>
+                            </div>
+                        </div>
                         <img class="about-img" src="./img/about1.jpg" alt="" />
                         <img class="about-img" src="./img/about2.jpg" alt="" />
                         <svg
@@ -436,11 +552,9 @@
                         <!-- item 2 -->
                         <div class="process-item">
                             <strong class="process-highlight">02.</strong>
-                            <div>
-                                <h3 class="process-sub-title">
-                                    Brainstormaing
-                                </h3>
-                            </div>
+                            <!-- <div> -->
+                            <h3 class="process-sub-title">Brainstormaing</h3>
+                            <!-- </div> -->
                             <p class="process-sub-desc">
                                 We customse a ensure aligment and difine key
                                 mileones and defiverables experience tells us
@@ -452,9 +566,9 @@
                         <!-- item 3 -->
                         <div class="process-item">
                             <strong class="process-highlight">03.</strong>
-                            <div>
-                                <h3 class="process-sub-title">Execution</h3>
-                            </div>
+                            <!-- <div> -->
+                            <h3 class="process-sub-title">Execution</h3>
+                            <!-- </div> -->
                             <p class="process-sub-desc">
                                 We customse a ensure aligment and difine key
                                 mileones and defiverables experience tells us
